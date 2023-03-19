@@ -31,4 +31,8 @@
 - Synthetic test data covers only a small set of very specific comments. While these are designed to be representative of common use cases and concerns, it is not comprehensive.
 
 ## Quantitative Analyses
-<img width="100%" alt="Quantitative Analyses" src="https://user-images.githubusercontent.com/1875500/226171968-57eb1d5f-426a-4fd5-9ed2-62fcae319a99.png">
+
+<img width="1096" alt="Quantitative Analyses" src="https://user-images.githubusercontent.com/1875500/226172204-3baa7f61-5fa0-4675-a6e9-0b2b0ef1dbd7.png">
+
+
+- Not intended to make judgments about specific individuals.
