@@ -23,62 +23,60 @@ Model Cards serve to disclose information about a trained machine learning model
 # ML Model Card Template
 ### 1. Model Details
 ###### Basic information about the model.
-	– Developer e.g. person or organisation developing model
-	– Model date
-	– Model version
-	– Model type
-	– Information about training algorithms, parameters, fairness constraints or other applied approaches, and features
-	– References or other resource for more information
-	– Citations e.g. how the model shoud be citedor referenced
-	– License
-	– Where to send questions or comments regarding the model
+ - **Model Developer** - Which person or organisation developed the model? This can be used by all stakeholders to infer details pertaining to model development and potential conflicts of interest.
+ - **Model Date** - When was the model developed? This is useful for all stakeholders to become further informed on what techniques and data sources were likely to be available during model development.
+ - **Model Version** - Which version of the model is it, and how does it differ from previous versions? This is useful for all stakeholders to track whether the model is the latest version, associate known bugs to the correct model versions, and aid in model comparisons.
+ - **Model Type** - What type of model is it? This includes basic model architecture details, such as whether it is a Naive Bayes classifier, a Convolutional Neural Network, etc. This is likely to be particularly relevant for software and model developers, as well as individuals knowledgeable about machine learning, to highlight what kinds of assumptions are encoded in the system.
+ - **Model References** - Where can resources for more information be found? Paper or other resource for more information.
+ - **Model Citations** - How should the model be cited? 
+ - **Model License** - License information can be provided. 
+ - **Model Feedback** - E.g., what is an email address that people may write to for further information?
 	
 ### 2. Intended Use
 ###### Use cases that were envisioned during development.
-	– Primary intended uses
-	– Primary intended users
-	– Out-of-scope use cases
+ - **Primary intended uses** - This section details whether the model was developed with general or specific tasks in mind (e.g., plant recognition worldwide or in the Pacific Northwest). The use cases may be as broadly or narrowly defined as the developers intend. For example, if the model was built simply to label images, then this task should be indicated as the primary intended use case.
+ - **Primary intended users** -	For example, was the model developed for entertainment purposes, for hobbyists, or enterprise solutions? This helps users gain insight into how robust the model may be to different kinds of inputs.
+ - **Out-of-scope uses** - Here, the model card should highlight technology that the model might easily be confused with, or related contexts that users could try to apply the model to. This section may provide an opportunity to recommend a related or similar model that was designed to better meet that particular need, where possible. This section is inspired by warning labels on food and toys, and similar disclaimers presented in electronic datasheets. Examples include “not for use on text examples shorter than 100 tokens” or “for use on black-and-white images only; please consider our research group’s full-color-image classifier for color images.”
 	
 ### 3. Factors
 ###### Factors could include demographic or phenotypic groups, environmental conditions, technical attributes, or others.
-	– Relevant factors
-	– Evaluation factors
+ - **Relevant factors** - What are foreseeable salient factors for which model performance may vary, and how were these determined?
+ - **Evaluation factors** - Which factors are being reported, and why were these chosen? If the relevant factors and evaluation factors are different, why? For example, while Fitzpatrick skin type is a relevant factor for face detection, an evaluation dataset annotated by skin type might not be available until reporting model performance across groups becomes standard practice.
 	
 ### 4. Metrics
 ###### Metrics should be chosen to reflect potential realworld impacts of the model.
-	– Model performance measures
-	– Decision thresholds
-	– Variation approaches
+ - **Model performance measures** - What measures of model performance are being reported, and why were they selected over other measures of model performance?
+ - **Decision thresholds** - If decision thresholds are used, what are they, and why were those decision thresholds chosen? When the model card is presented in a digital format, a threshold slider should ideally be available to view performance parameters across various decision thresholds.
+ - **Approaches to uncertainty and variability** - How are the measurements and estimations of these metrics calculated? For example, this may include standard deviation, variance, confidence intervals, or KL divergence. Details of how these values are approximated should also be included (e.g., average of 5 runs, 10-fold cross-validation).
 	
 ### 5. Evaluation Data
 ###### Details on the dataset(s) used for the quantitative analyses in the card.
-	– Datasets
-	– Motivation
-	– Preprocessing
+ - **Datasets**  - What datasets were used to evaluate the model?
+ - **Motivation** - Why were these datasets chosen? 
+ - **Preprocessing** - How was the data preprocessed for evaluation (e.g., tokenization of sentences, cropping of images, any filtering such as dropping images without faces)? 
+
 	
 ### 6. Training Data
-###### May not be possible to provide in practice. When possible, this section should mirror Evaluation Data. If such detail is not possible, minimal allowable information should be provided here, such as details of the distribution over various factors in the training datasets.
-	– Datasets
-	– Ownership
-	– Restrictions
+###### May not be possible to provide in practice. 
+ - **Datasets** - When possible, this section should mirror Evaluation Data. If such detail is not possible, minimal allowable information should be provided here, such as details of the distribution over various factors in the training datasets.
 
 ### 7. Quantitative Analyses
 ###### Details of quantitative analyses should provide the results of evaluating the model according to the chosen metrics, providing confidence interval values when possible.
-	– Unitary results	
-	– Intersectional results
+ - **Unitary results** - How did the model perform with respect to each factor?
+ - **Intersectional results** -	How did the model perform with respect to the intersection of evaluated factors?
 	
 ### 8. Ethical Considerations
-###### Ethical analysis does not always lead to precise solutions, but the process of ethical contemplation is worthwhile to inform on responsible practices and next steps in future work..
-	- Data
-	- Human life
-	- Mitigations
-	- Risks and harms
-	- Use cases
+###### Ethical analysis does not always lead to precise solutions, but documenting ethical analysis is worthwhile to demonstrate responsible practices and next steps in future work.
+ - **Data** - Does the model use any sensitive data (e.g., protected classes)?
+ - **Human life** - Is the model intended to inform decisions about matters central to human life or flourishing – e.g., health or safety? Or could it be used in such a way?
+ - **Mitigations** - What risk mitigation strategies were used during model development?
+ - **Risks and harms** - What risks may be present in model usage? Try to identify the potential recipients, likelihood, and magnitude of harms. If these cannot be determined, note that they were considered but remain unknown.
+ - **Use cases** - Are there any known model use cases that are especially fraught? This may connect directly to the intended use section of the model card
 	
 ### 9. Caveats and Recommendations
 ###### This section should list additional concerns that were not covered in the previous sections.
-	– Caveats	
-	– Recommendations
+ – **Caveats** - Are there any caveats that need to listed?	
+ – **Recommendations** - Are there any recommendations that shoudld to listed?	
 	
 # Model Card Sections
 ## 1. Model Details
