@@ -59,7 +59,19 @@ Model Cards serve to disclose information about a trained machine learning model
 	– Ethical Considerations
 	– Caveats and Recommendations
 
-
+### 7. Quantitative Analyses
+###### May not be possible to provide in practice. When possible, this section should mirror Evaluation Data. If such detail is not possible, minimal allowable information should be provided here, such as details of the distribution over various factors in the training datasets.
+	– Unitary results	
+	– Intersectional results
+### 8. Ethical Considerations
+###### May not be possible to provide in practice. When possible, this section should mirror Evaluation Data. If such detail is not possible, minimal allowable information should be provided here, such as details of the distribution over various factors in the training datasets.
+	– Unitary results	
+	– Intersectional results
+### 9. Caveats and Recommendations
+###### May not be possible to provide in practice. When possible, this section should mirror Evaluation Data. If such detail is not possible, minimal allowable information should be provided here, such as details of the distribution over various factors in the training datasets.
+	– Unitary results	
+	– Intersectional results
+	
 # Model Card Sections
 ## 1. Model Details
 This section of the model card should answer basic questions regarding the model version, type and other details.
