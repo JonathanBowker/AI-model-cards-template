@@ -19,7 +19,7 @@ Model Cards enable model reporting with different context for those involved in 
 - **Impacted individuals** who may be affected by a model can better understand how it works or use information in the Model Passport to pursue remedies.
 
 # Model Card Sections
-Model Cards serve to disclose information about a trained machine learning model. This includes how it was built, what assumptions were made during its development, what type of model behaviour different cultural, demographic, or phenotypic population groups may experience, and an evaluation of how well the model performs with respect to those groups.
+Model Cards serve to disclose information about a trained machine learning model. This includes how it was built, what assumptions were made during its development, what type of model behaviour different cultural, demographic, or phenotypic population groups may experience, and an evaluation of how well the model cards with respect to those groups.
 
 # ML Model Card Template
 ### 1. Model Details
