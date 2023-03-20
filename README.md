@@ -51,13 +51,12 @@ Model Cards serve to disclose information about a trained machine learning model
 	– Datasets
 	– Motivation
 	– Preprocessing
+	
 ### 6. Training Data
 ###### May not be possible to provide in practice. When possible, this section should mirror Evaluation Data. If such detail is not possible, minimal allowable information should be provided here, such as details of the distribution over various factors in the training datasets.
-	– Quantitative Analyses
-		– Unitary results
-		– Intersectional results
-	– Ethical Considerations
-	– Caveats and Recommendations
+	– Datasets
+	– Ownership
+	– Restrictions
 
 ### 7. Quantitative Analyses
 ###### Details of quantitative analyses should provide the results of evaluating the model according to the chosen metrics, providing confidence interval values when possible.
