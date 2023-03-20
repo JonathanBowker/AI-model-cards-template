@@ -1,29 +1,29 @@
-# AI and ML Model Cards
-## Model Cards for Model Reporting
-AI and ML Model Cards serve to disclose information about a trained machine learning model. This includes how it was built, what assumptions were made during its development, what type of model behaviour different cultural, demographic, or phenotypic population groups may experience, and an evaluation of how well the model performs with respect to those groups. 
+# AI System Passports
+## AI Passports for Model Reporting
+AI Passports serve to disclose information about a trained machine learning model. This includes how it was built, what assumptions were made during its development, what type of model behaviour different cultural, demographic, or phenotypic population groups may experience, and an evaluation of how well the model performs with respect to those groups. 
 
 
-# Background
-As the use of machine learning technology has rapidly increased, so too have reports of errors and failures. Despite the potentially serious repercussions of these errors, those looking to use trained machine learning models in a particular context have no way of understanding the systematic impacts of these models before deploying them.
+## Background
+As the use of machine learning technology and AI are rapidly increasing, so too have the volume of reports of errors and failures. Despite the potentially serious repercussions of these errors, those looking to use trained machine learning models in a particular context have no way of understanding the systematic impacts of these models before deploying them or engaging their services. 
 
-Model Cards standardise ethical practice and reporting by allowing stakeholders to compare candidate models for deployment across traditional evaluation metrics, and along the axes of ethical, inclusive, and fair considerations. This goes further than current solutions to aid stakeholders in different contexts. For example, to aid policy makers and regulators on questions to ask of a model, and known benchmarks around the suitability of a model in a given setting.
+The AI Passport service aims to standardise ethical practice and reporting by allowing key people to compare candidate models for deployment across traditional evaluation metrics as well as the axes of ethical, inclusive, and fair considerations. This goes beyond the boundaries of current solutions that aid stakeholders in different contexts. For example, to aid policy makers and regulators on questions to ask about a model, and known benchmarks around the suitability of a model in a specific setting.
 
-This enables model reporting with different meanings to those involved (see below) in different aspects of model development, deployment, and use:
+AI Passports enable model reporting with different context for those involved in different aspects of model development, deployment, and usage:
 
-- ML and AI practitioners can better understand how well the model might work for the intended use cases and track its performance over time.
-- Model developers can compare the model’s results to other models in the same space, and make decisions about training their own system.
+- ML and AI practitioners can better understand how well the model might work for its intended use cases and track its performance over time.
+- Model developers can compare the model’s results to other models in the same space, and make decisions about training their own AI system.
 - Software developers working on products that use the model’s predictions can inform their design and implementation decisions.
-- Policymakers can understand how a machine learning system may fail or succeed in ways that impact people.
-- Organisations can inform decisions about adopting technology that incorporates machine learning.
+- Policymakers can understand how a machine learning system may fail or succeed in ways that impact individuals and groups.
+- Organisations can make better informed decisions about adopting technology that incorporates machine learning.
 - ML-knowledgeable individuals can be informed on different options for fine-tuning, model combination, or additional rules and constraints to help curate models for intended use cases without requiring technical expertise.
-- Impacted individuals who may experience effects from a model can better understand how it works or use information in the card to pursue remedies.
+- Impacted individuals who may be affected by a model can better understand how it works or use information in the Model Passport to pursue remedies.
 
-# Model Card Sections
-Model cards serve to disclose information about a trained machine learning model. This includes how it was built, what assumptions were made during its development, what type of model behaviour different cultural, demographic, or phenotypic population groups may experience, and an evaluation of how well the model performs with respect to those groups.
+# AI Passport Sections
+AI Passports serve to disclose information about a trained machine learning model. This includes how it was built, what assumptions were made during its development, what type of model behaviour different cultural, demographic, or phenotypic population groups may experience, and an evaluation of how well the model performs with respect to those groups.
 
 # ML Model Card
-### Model Details. Basic information about the model.
-	– Person or organization developing model
+### 1. Model Details. Basic information about the model.
+	– Person or organisation developing model
 	– Model date
 	– Model version
 	– Model type
@@ -32,22 +32,22 @@ Model cards serve to disclose information about a trained machine learning model
 	– Citation details
 	– License
 	– Where to send questions or comments about the model
-### Intended Use. Use cases that were envisioned during development.
+### 2. Intended Use. Use cases that were envisioned during development.
 	– Primary intended uses
 	– Primary intended users
 	– Out-of-scope use cases
-### Factors. Factors could include demographic or phenotypic groups, environmental conditions, technical attributes, or others listed in Section 4.3.
+### 3. Factors. Factors could include demographic or phenotypic groups, environmental conditions, technical attributes, or others listed in Section 4.3.
 	– Relevant factors
 	– Evaluation factors
-### Metrics. Metrics should be chosen to reflect potential realworld impacts of the model.
+### 4. Metrics. Metrics should be chosen to reflect potential realworld impacts of the model.
 	– Model performance measures
 	– Decision thresholds
 	– Variation approaches
-### Evaluation Data. Details on the dataset(s) used for the quantitative analyses in the card.
+### 5. Evaluation Data. Details on the dataset(s) used for the quantitative analyses in the card.
 	– Datasets
 	– Motivation
 	– Preprocessing
-### Training Data. May not be possible to provide in practice.
+### 6. Training Data. May not be possible to provide in practice.
 ##### When possible, this section should mirror Evaluation Data. If such detail is not possible, minimal allowable information should be provided here, such as details of the distribution over various factors in the training datasets.
 	– Quantitative Analyses
 		– Unitary results
@@ -55,11 +55,11 @@ Model cards serve to disclose information about a trained machine learning model
 	– Ethical Considerations
 	– Caveats and Recommendations
 
+# 1. Model Details
+This section of the model card should answer basic questions regarding the model version, type and other details.
 
-# Model Details
-
-### Person or organization developing model 
-What person or organization developed the model? This can be used by all stakeholders to infer details pertaining to model development and potential conflicts of interest.
+### Person or organisation developing model 
+What person or organisation developed the model? This can be used by all stakeholders to infer details pertaining to model development and potential conflicts of interest.
 
 ### Model date
 When was the model developed? This is useful for all stakeholders to become further informed on what techniques and data sources were likely to be available during model development.
@@ -78,9 +78,9 @@ How should the model be cited? License: License information can be provided. Fee
 
 There are cases where some of this information may be sensitive. This section should not be seen as a requirement to compromise private information or reveal proprietary training techniques; rather, a place to disclose basic decisions and facts about the model that the organisation can share with the broader community in order to better inform on what the model represents.
 
-# Intended Use
+# 2. Intended Use
 
-The model should and should not be used for, and why it was created. It can also help frame the statistical analysis presented in the rest of the card, including a short description of the user(s), use-case(s), and context(s) for which the model was originally developed. Possible information includes:
+This section of the model card should answer what the model should and should not be used for, and why it was created. It can also help frame the statistical analysis presented in the rest of the card, including a short description of the user(s), use-case(s), and context(s) for which the model was originally developed. This information includes but is not limited to:
 
 ### Primary intended uses
 This section details whether the model was developed with general or specific tasks in mind (e.g., plant recognition worldwide or in the Pacific Northwest). The use cases may be as broadly or narrowly defined as the developers intend. For example, if the model was built simply to label images, then this task should be indicated as the primary intended use case. 
@@ -90,3 +90,40 @@ For example, was the model developed for entertainment purposes, for hobbyists, 
 
 ### Out-of-scope uses
 Here, the model card should highlight technology that the model might easily be confused with, or related contexts that users could try to apply the model to. This section may provide an opportunity to recommend a related or similar model that was designed to better meet that particular need, where possible. This section is inspired by warning labels on food and toys, and similar disclaimers presented in electronic datasheets. Examples include “not for use on text examples shorter than 100 tokens” or “for use on black-and-white images only; please consider our research group’s full-color-image classifier for color images.”
+
+# 3. Factors
+Model cards ideally provide a summary of model performance across a variety of relevant factors including groups, instrumentation, and environments. We briefly describe each of these factors and their relevance followed by the corresponding prompts in the model card.
+
+# 4. Metrics
+The appropriate metrics to feature in a model card depend on the type of model that is being tested. For example, classification systems in which the primary output is a class label differ significantly from systems whose primary output is a score. In all cases, the reported metrics should be determined based on the model’s structure and intended use. Details for this section include:
+
+
+# 5. Evaluation Data
+
+
+# 6. Training Data
+
+
+# 7. Quantitative Analyses
+Quantitative analyses should be disaggregated or broken down by the chosen factors. Quantitative analyses should provide the results of evaluating the model according to the chosen metrics, providing confidence interval values when possible. Parity on the different metrics across disaggregated population subgroups corresponds to how fairness is often defined. Quantitative analyses should demonstrate the metric variation (e.g., with error bars), as discussed in Section 4.4 and visualized in Figure 2. The disaggregated evaluation includes: 
+
+Unitary results: How did the model perform with respect to each factor? Intersectional results: How did the model perform with respect to the intersection of evaluated factors?
+
+# 8. Ethical Considerations
+This section is intended to demonstrate the ethical considerations that went into model development, surfacing ethical challenges and solutions to stakeholders. Ethical analysis does not always lead to precise solutions, but the process of ethical contemplation is worthwhile to inform on responsible practices and next steps in future work. 
+
+While there are many frameworks for ethical decision-making in technology that can be adapted, the following are specific questions for exploring in this section: 
+
+| Topic        | Question           |
+| ------------- |:--------------------------------------:|
+| Data      | Does the model use any sensitive data (e.g., protected classes)? |
+| Human life  | Is the model intended to inform decisions about matters central to human life or flourishing – e.g., health or safety? Or
+could it be used in such a way?   |
+| Mitigations | What risk mitigation strategies were used during model development?  | 
+| Risks and harms | What risks may be present in model usage? Try
+to identify the potential recipients, likelihood, and magnitude of
+harms. If these cannot be determined, note that they were considered but remain unknown.  | 
+| Use cases | Are there any known model use cases that are especially fraught? This may connect directly to the intended use section of the model card.  | 
+
+
+# 9. Caveats and Recommendations
