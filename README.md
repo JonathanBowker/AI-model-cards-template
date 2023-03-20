@@ -24,12 +24,12 @@ Model Cards serve to disclose information about a trained machine learning model
 # ML Model Card Template
 ### 1. Model Details
 ###### Basic information about the model.
-	– Person or organisation developing model
+	– Developer - person or organisation developing model
 	– Model date
 	– Model version
 	– Model type
 	– Information about training algorithms, parameters, fairness constraints or other applied approaches, and features
-	– Paper or other resource for more information
+	– References or other resource for more information
 	– Citation details
 	– License
 	– Where to send questions or comments about the model
