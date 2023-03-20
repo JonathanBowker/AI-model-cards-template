@@ -22,7 +22,8 @@ AI Passports enable model reporting with different context for those involved in
 AI Passports serve to disclose information about a trained machine learning model. This includes how it was built, what assumptions were made during its development, what type of model behaviour different cultural, demographic, or phenotypic population groups may experience, and an evaluation of how well the model performs with respect to those groups.
 
 # ML Model Card
-### 1. Model Details. Basic information about the model.
+### 1. Model Details
+###### Basic information about the model.
 	– Person or organisation developing model
 	– Model date
 	– Model version
@@ -32,23 +33,27 @@ AI Passports serve to disclose information about a trained machine learning mode
 	– Citation details
 	– License
 	– Where to send questions or comments about the model
-### 2. Intended Use. Use cases that were envisioned during development.
+### 2. Intended Use
+###### Use cases that were envisioned during development.
 	– Primary intended uses
 	– Primary intended users
 	– Out-of-scope use cases
-### 3. Factors. Factors could include demographic or phenotypic groups, environmental conditions, technical attributes, or others listed in Section 4.3.
+### 3. Factors
+###### Factors could include demographic or phenotypic groups, environmental conditions, technical attributes, or others listed in Section 4.3.
 	– Relevant factors
 	– Evaluation factors
-### 4. Metrics. Metrics should be chosen to reflect potential realworld impacts of the model.
+### 4. Metrics
+###### Metrics should be chosen to reflect potential realworld impacts of the model.
 	– Model performance measures
 	– Decision thresholds
 	– Variation approaches
-### 5. Evaluation Data. Details on the dataset(s) used for the quantitative analyses in the card.
+### 5. Evaluation Data
+###### Details on the dataset(s) used for the quantitative analyses in the card.
 	– Datasets
 	– Motivation
 	– Preprocessing
-### 6. Training Data. May not be possible to provide in practice.
-##### When possible, this section should mirror Evaluation Data. If such detail is not possible, minimal allowable information should be provided here, such as details of the distribution over various factors in the training datasets.
+### 6. Training Data
+###### May not be possible to provide in practice. When possible, this section should mirror Evaluation Data. If such detail is not possible, minimal allowable information should be provided here, such as details of the distribution over various factors in the training datasets.
 	– Quantitative Analyses
 		– Unitary results
 		– Intersectional results
