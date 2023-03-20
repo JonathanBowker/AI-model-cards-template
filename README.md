@@ -5,9 +5,9 @@ AI and ML Model Cards serve to disclose information about a trained machine lear
 # Background
 As the use of machine learning technology has rapidly increased, so too have reports of errors and failures. Despite the potentially serious repercussions of these errors, those looking to use trained machine learning models in a particular context have no way of understanding the systematic impacts of these models before deploying them.
 
-Model Cards aim to standardise ethical practice and reporting - allowing stakeholders to compare candidate models for deployment across not only traditional evaluation metrics but also along the axes of ethical, inclusive, and fair considerations. This goes further than current solutions to aid stakeholders in different contexts. For example, to aid policy makers and regulators on questions to ask of a model, and known benchmarks around the suitability of a model in a given setting.
+Model Cards standardise ethical practice and reporting by allowing stakeholders to compare candidate models for deployment across traditional evaluation metrics, and along the axes of ethical, inclusive, and fair considerations. This goes further than current solutions to aid stakeholders in different contexts. For example, to aid policy makers and regulators on questions to ask of a model, and known benchmarks around the suitability of a model in a given setting.
 
-Model reporting will hold different meaning to those involved in different aspects of model development, deployment, and use. Below, we outline a few use cases for different stakeholders:
+This enables model reporting with different meanings to those involved (see below) in different aspects of model development, deployment, and use:
 
 - ML and AI practitioners can better understand how well the model might work for the intended use cases and track its performance over time.
 - Model developers can compare the model’s results to other models in the same space, and make decisions about training their own system.
@@ -18,7 +18,7 @@ Model reporting will hold different meaning to those involved in different aspec
 - Impacted individuals who may experience effects from a model can better understand how it works or use information in the card to pursue remedies.
 
 # Model Card Sections
-Model cards serve to disclose information ab
+Model cards serve to disclose information about the 
 
 # ML Model Card
 ### Model Details. Basic information about the model.
