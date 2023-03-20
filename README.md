@@ -10,13 +10,13 @@ Model Cards aim to standardise ethical practice and reporting by allowing key pe
 
 Model Cards enable model reporting with different context for those involved in different aspects of model development, deployment, and usage:
 
-- ML and AI practitioners can better understand how well the model might work for its intended use cases and track its performance over time.
-- Model developers can compare the model’s results to other models in the same space, and make decisions about training their own AI system.
-- Software developers working on products that use the model’s predictions can inform their design and implementation decisions.
-- Policymakers can understand how a machine learning system may fail or succeed in ways that impact individuals and groups.
-- Organisations can make better informed decisions about adopting technology that incorporates machine learning.
-- ML-knowledgeable individuals can be informed on different options for fine-tuning, model combination, or additional rules and constraints to help curate models for intended use cases without requiring technical expertise.
-- Impacted individuals who may be affected by a model can better understand how it works or use information in the Model Passport to pursue remedies.
+- **ML and AI practitioners** can better understand how well the model might work for its intended use cases and track its performance over time.
+- **Model developers** can compare the model’s results to other models in the same space, and make decisions about training their own AI system.
+- **Software developers** working on products that use the model’s predictions can inform their design and implementation decisions.
+- **Policymakers** can understand how a machine learning system may fail or succeed in ways that impact individuals and groups.
+- **Organisations** can make better informed decisions about adopting technology that incorporates machine learning.
+- **ML-knowledgeable** individuals can be informed on different options for fine-tuning, model combination, or additional rules and constraints to help curate models for intended use cases without requiring technical expertise.
+- **Impacted individuals** who may be affected by a model can better understand how it works or use information in the Model Passport to pursue remedies.
 
 # Model Card Sections
 Model Cards serve to disclose information about a trained machine learning model. This includes how it was built, what assumptions were made during its development, what type of model behaviour different cultural, demographic, or phenotypic population groups may experience, and an evaluation of how well the model performs with respect to those groups.
