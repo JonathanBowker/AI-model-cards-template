@@ -11,13 +11,13 @@
 - Not intended to make judgments about specific individuals.
 
 ## Factors
-- Identity terms referencing frequently attacked groups, fo- cusing on sexual orientation, gender identity, and race.
+- Identity terms referencing frequently attacked groups, focussing on sexual orientation, gender identity, and race.
 
 ## Metrics
-- Pinned AUC, as presented in [Measuring and Mitigating Unintended Bias in Text Classification](https://research.google/pubs/pub46743/), which measures threshold-agnostic separability of toxic and non-toxic com- ments for each group, within the context of a background distribution of other groups.
+- Pinned AUC, as presented in [Measuring and Mitigating Unintended Bias in Text Classification](https://research.google/pubs/pub46743/), which measures threshold-agnostic separability of toxic and non-toxic comments for each group, within the context of a background distribution of other groups.
 
 ## Ethical Considerations
-- Following [Conversation AI Research](https://conversationai.github.io/), the [Perspective API](https://www.perspectiveapi.com/) uses a set of values to guide their work. These values are Community, Trans- parency, Inclusivity, Privacy, and Topic-neutrality. Because of privacy considerations, the model does not take into ac- count user history when making judgments about toxicity.
+- Following [Conversation AI Research](https://conversationai.github.io/), the [Perspective API](https://www.perspectiveapi.com/) uses a set of values to guide their work. These values are Community, Transparency, Inclusivity, Privacy, and Topic-neutrality. Because of privacy considerations, the model does not take into account user history when making judgements about toxicity.
  
 ## Training Data
 - Proprietary from Perspective API. Following details in [Measuring and Mitigating Unintended Bias in Text Classification](https://research.google/pubs/pub46743/) and [Perspective API](https://www.perspectiveapi.com/) and this includes comments from a online forums such as Wikipedia and New York Times, with crowdsourced labels of whether the comment is “toxic”.
@@ -35,4 +35,4 @@
 <img width="1096" alt="Quantitative Analyses" src="https://user-images.githubusercontent.com/1875500/226172204-3baa7f61-5fa0-4675-a6e9-0b2b0ef1dbd7.png">
 
 
-- Not intended to make judgments about specific individuals.
+- Not intended to make judegments about specific individuals.
