@@ -38,7 +38,7 @@ Model Cards serve to disclose information about a trained machine learning model
 	– Primary intended users
 	– Out-of-scope use cases
 ### 3. Factors
-###### Factors could include demographic or phenotypic groups, environmental conditions, technical attributes, or others listed in Section 4.3.
+###### Factors could include demographic or phenotypic groups, environmental conditions, technical attributes, or others.
 	– Relevant factors
 	– Evaluation factors
 ### 4. Metrics
