@@ -58,14 +58,14 @@ AI Passports serve to disclose information about a trained machine learning mode
 # 1. Model Details
 This section of the model card should answer basic questions regarding the model version, type and other details.
 
-| Subject        | Question           |
+| **Subject**        | **Question**           |
 | :------------- |:--------------------------------------|
-| Person or organisation developing model      | What person or organisation developed the model? This can be used by all stakeholders to infer details pertaining to model development and potential conflicts of interest. |
-| Model date     | When was the model developed? This is useful for all stakeholders to become further informed on what techniques and data sources were likely to be available during model development. |
-| Model version      | Which version of the model is it, and how does it differ from previous versions? This is useful for all stakeholders to track whether the model is the latest version, associate known bugs to the correct model versions, and aid in model comparisons. |
-| Model type    | What type of model is it? This includes basic model architecture details, such as whether it is a Naive Bayes classifier, a Convolutional Neural Network, etc. This is likely to be particularly relevant for software and model developers, as well as individuals knowledgeable about machine learning, to highlight what kinds of assumptions are encoded in the system. |
-| Paper or other resource for more information     | Where can resources for more information be found? |
-| Citation details      | How should the model be cited? License: License information can be provided. Feedback on the model: E.g., what is an email address that people may write to for further information? |
+| **Person or organisation developing model**      | What person or organisation developed the model? This can be used by all stakeholders to infer details pertaining to model development and potential conflicts of interest. |
+| **Model date**     | When was the model developed? This is useful for all stakeholders to become further informed on what techniques and data sources were likely to be available during model development. |
+| **Model version**      | Which version of the model is it, and how does it differ from previous versions? This is useful for all stakeholders to track whether the model is the latest version, associate known bugs to the correct model versions, and aid in model comparisons. |
+| **Model type**    | What type of model is it? This includes basic model architecture details, such as whether it is a Naive Bayes classifier, a Convolutional Neural Network, etc. This is likely to be particularly relevant for software and model developers, as well as individuals knowledgeable about machine learning, to highlight what kinds of assumptions are encoded in the system. |
+| **Paper or other resource for more information**     | Where can resources for more information be found? |
+| **Citation details**      | How should the model be cited? License: License information can be provided. Feedback on the model: E.g., what is an email address that people may write to for further information? |
 
 There are cases where some of this information may be sensitive. This section should not be seen as a requirement to compromise private information or reveal proprietary training techniques; rather, a place to disclose basic decisions and facts about the model that the organisation can share with the broader community in order to better inform on what the model represents.
 
@@ -73,7 +73,7 @@ There are cases where some of this information may be sensitive. This section sh
 
 This section of the model card should answer what the model should and should not be used for, and why it was created. It can also help frame the statistical analysis presented in the rest of the card, including a short description of the user(s), use-case(s), and context(s) for which the model was originally developed. This information includes but is not limited to:
 
-| Subject        | Question           |
+| **Subject**        | **Question**           |
 | :------------- |:--------------------------------------|
 | **Primary intended uses** | This section details whether the model was developed with general or specific tasks in mind (e.g., plant recognition worldwide or in the Pacific Northwest). The use cases may be as broadly or narrowly defined as the developers intend. For example, if the model was built simply to label images, then this task should be indicated as the primary intended use case.|
 |  **Primary intended users** | For example, was the model developed for entertainment purposes, for hobbyists, or enterprise solutions? This helps users gain insight into how robust the model may be to different kinds of inputs. |
@@ -85,7 +85,7 @@ Model cards ideally provide a summary of model performance across a variety of r
 # 4. Metrics
 The appropriate metrics to feature in a model card depend on the type of model that is being tested. For example, classification systems in which the primary output is a class label differ significantly from systems whose primary output is a score. In all cases, the reported metrics should be determined based on the model’s structure and intended use. Details for this section include:
 
-| Subject        | Question           |
+| **Subject**        | **Question**           |
 | :------------- |:--------------------------------------|
 | **Model performance measures**    | What measures of model performance are being reported, and why were they selected over other measures of model performance?  |
 | **Decision thresholds**  | If decision thresholds are used, what are they, and why were those decision thresholds chosen? When the model card is presented in a digital format, a threshold slider should ideally be available to view performance parameters across various decision thresholds.  |
@@ -109,7 +109,7 @@ Performance metrics that are disaggregated by various combinations of instrument
 # 5. Evaluation Data
 All referenced datasets would ideally point to any set of documents that provide visibility into the source and composition of the dataset. Evaluation datasets should include datasets that are publicly available for third-party use. These could be existing datasets or new ones provided alongside the model card analyses to enable further benchmarking. Potential details include:
 
-| Subject        | Question           |
+| **Subject**        | **Question**           |
 | :------------- |:--------------------------------------|
 | **Datasets**     | What datasets were used to evaluate the model?  |
 | **Motivation**  | Why were these datasets chosen?   |
@@ -125,7 +125,7 @@ Ideally, the model card would contain as much information about the training dat
 # 7. Quantitative Analyses
 Quantitative analyses should be disaggregated or broken down by the chosen factors. Quantitative analyses should provide the results of evaluating the model according to the chosen metrics, providing confidence interval values when possible. Parity on the different metrics across disaggregated population subgroups corresponds to how fairness is often defined. Quantitative analyses should demonstrate the metric variation (e.g., with error bars), as discussed in Section 4.4 and visualized in Figure 2. The disaggregated evaluation includes: 
 
-| Subject        | Question           |
+| **Subject**        | **Question**           |
 | :------------- |:--------------------------------------|
 | **Unitary results**      | How did the model perform with respect to each factor?  |
 | **Intersectional results**  | How did the model perform with respect to the intersection of evaluated factors?   |
@@ -136,7 +136,7 @@ This section is intended to demonstrate the ethical considerations that went int
 
 While there are many frameworks for ethical decision-making in technology that can be adapted, the following are specific questions for exploring in this section: 
 
-| Subject        | Question           |
+| **Subject**        | **Question**           |
 | :------------- |:--------------------------------------|
 | **Data**      | Does the model use any sensitive data (e.g., protected classes)? |
 | **Human life**  | Is the model intended to inform decisions about matters central to human life or flourishing – e.g., health or safety? Or could it be used in such a way?   |
