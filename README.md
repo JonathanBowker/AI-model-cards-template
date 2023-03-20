@@ -175,7 +175,7 @@ While there are many frameworks for ethical decision-making in technology that c
 This section should list additional concerns that were not covered in the previous sections. For example, did the results suggest any requiremnt for further testing? Were there any relevant groups that were not represented in the evaluation dataset? Are there additional recommendations for model use? What are the ideal characteristics of an evaluation dataset for this model?
 
 # Model Card Usage
-Model Cards include information about the context of the model, as well as model performance results disaggregated by different unitary and intersectional population groups. Model Cards have been designed to accompany a model after careful review has determined that the foreseeable benefits outweigh the foreseeable risks in the model’s use or release.
+Model Cards provide information about the context of a machine learning model, as well as model performance results disaggregated by different unitary and intersectional population groups. Model Cards are designed to accompany a specific model after careful review has determined that the foreseeable benefits outweigh the foreseeable risks in the model’s use or release.
 
 The framework is intended to be general enough to be applicable across different institutions, contexts, and stakeholders. It also is suitable for recently proposed requirements for analysis of algorithmic decision systems in critical social institutions, for example, for models used in determining government benefits, employment evaluations, criminal risk assessment, and criminal DNA analysis. 
 
