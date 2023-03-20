@@ -61,7 +61,8 @@ Model Cards serve to disclose information about a trained machine learning model
 	– Caveats and Recommendations
 
 
-# Section 1. Model Details
+# Modeal Sections
+## 1. Model Details
 This section of the model card should answer basic questions regarding the model version, type and other details.
 
 | **Subject**        | **Question**           |
@@ -75,7 +76,7 @@ This section of the model card should answer basic questions regarding the model
 
 There are cases where some of this information may be sensitive. This section should not be seen as a requirement to compromise private information or reveal proprietary training techniques; rather, a place to disclose basic decisions and facts about the model that the organisation can share with the broader community in order to better inform on what the model represents.
 
-## Section 2. Intended Use
+## 2. Intended Use
 
 This section of the model card should answer what the model should and should not be used for, and why it was created. It can also help frame the statistical analysis presented in the rest of the card, including a short description of the user(s), use-case(s), and context(s) for which the model was originally developed. This information includes but is not limited to:
 
@@ -85,7 +86,7 @@ This section of the model card should answer what the model should and should no
 |  **Primary intended users** | For example, was the model developed for entertainment purposes, for hobbyists, or enterprise solutions? This helps users gain insight into how robust the model may be to different kinds of inputs. |
 |  **Out-of-scope uses** | Here, the model card should highlight technology that the model might easily be confused with, or related contexts that users could try to apply the model to. This section may provide an opportunity to recommend a related or similar model that was designed to better meet that particular need, where possible. This section is inspired by warning labels on food and toys, and similar disclaimers presented in electronic datasheets. Examples include “not for use on text examples shorter than 100 tokens” or “for use on black-and-white images only; please consider our research group’s full-color-image classifier for color images.” |
 
-## Section 3. Factors
+## 3. Factors
 Model cards ideally provide a summary of model performance across a variety of relevant factors including groups, instrumentation, and environments. We briefly describe each of these factors and their relevance followed by the corresponding prompts in the model card.
 
 ### 3.1 Groups
@@ -107,7 +108,7 @@ The Factors section of model cards expands on two prompts:
 | **Relevant factors**    |  What are foreseeable salient factors for which model performance may vary, and how were these determined? |
 | **Evaluation factors**    |  Which factors are being reported, and why were these chosen? If the relevant factors and evaluation factors are different, why? For example, while Fitzpatrick skin type is a relevant factor for face detection, an evaluation dataset annotated by skin type might not be available until reporting model performance across groups becomes standard practice. |
 
-## Section 4. Metrics
+## 4. Metrics
 The appropriate metrics to feature in a model card depend on the type of model that is being tested. For example, classification systems in which the primary output is a class label differ significantly from systems whose primary output is a score. In all cases, the reported metrics should be determined based on the model’s structure and intended use. Details for this section include:
 
 | **Subject**        | **Question**           |
@@ -131,7 +132,7 @@ There are a number of applications that do not appear to be score-based at first
 ### 4.3 Confidence. 
 Performance metrics that are disaggregated by various combinations of instrumentation, environments and groups makes it especially important to understand the confidence intervals for the reported metrics. Confidence intervals for metrics derived from confusion matrices can be calculated by treating the matrices as [probabilistic models of system performance](https://link.springer.com/chapter/10.1007/978-3-540-31865-1_25).
 
-## Section 5. Evaluation Data
+## 5. Evaluation Data
 All referenced datasets would ideally point to any set of documents that provide visibility into the source and composition of the dataset. Evaluation datasets should include datasets that are publicly available for third-party use. These could be existing datasets or new ones provided alongside the model card analyses to enable further benchmarking. Potential details include:
 
 | **Subject**        | **Question**           |
@@ -144,10 +145,10 @@ To ensure that model cards are statistically accurate and verifiable, the evalua
 
 It is often difficult to find datasets that represent populations outside of the initial domain used in training. In some of these situations, synthetically generated datasets may provide representation for use cases that would otherwise go unevaluated.
 
-## Section 6. Training Data
+## 6. Training Data
 Ideally, the model card would contain as much information about the training data as the evaluation data. However, there might be cases where it is not feasible to provide this level of detailed information about the training data. For example, the data may be proprietary, or require a non-disclosure agreement. In these cases, we advocate for basic details about the distributions over groups in the data, as well as any other details that could inform stakeholders on the kinds of biases the model may have encoded.
 
-## Section 7. Quantitative Analyses
+## 7. Quantitative Analyses
 Quantitative analyses should be disaggregated or broken down by the chosen factors. Quantitative analyses should provide the results of evaluating the model according to the chosen metrics, providing confidence interval values when possible. Parity on the different metrics across disaggregated population subgroups corresponds to how fairness is often defined. Quantitative analyses should demonstrate the metric variation (e.g., with error bars), as discussed in Section 4.4 and visualized in Figure 2. The disaggregated evaluation includes: 
 
 | **Subject**        | **Question**           |
@@ -173,8 +174,8 @@ While there are many frameworks for ethical decision-making in technology that c
 ## 9. Caveats and Recommendations
 This section should list additional concerns that were not covered in the previous sections. For example, did the results suggest any requiremnt for further testing? Were there any relevant groups that were not represented in the evaluation dataset? Are there additional recommendations for model use? What are the ideal characteristics of an evaluation dataset for this model?
 
-# Model Cards Usage
-Model Cards include information about the context of the model, as well as model performance results disaggregated by different unitary and intersectional population groups. Model Cards should accompany and travel with a model after careful review has determined that the foreseeable benefits outweigh the foreseeable risks in the model’s use or release.
+# Model Card Usage
+Model Cards include information about the context of the model, as well as model performance results disaggregated by different unitary and intersectional population groups. Model Cards have been designed to accompany a model after careful review has determined that the foreseeable benefits outweigh the foreseeable risks in the model’s use or release.
 
 The framework is intended to be general enough to be applicable across different institutions, contexts, and stakeholders. It also is suitable for recently proposed requirements for analysis of algorithmic decision systems in critical social institutions, for example, for models used in determining government benefits, employment evaluations, criminal risk assessment, and criminal DNA analysis. 
 
