@@ -71,8 +71,8 @@ This section of the model card should answer basic questions regarding the model
 | **Model date**     | When was the model developed? This is useful for all stakeholders to become further informed on what techniques and data sources were likely to be available during model development. |
 | **Model version**      | Which version of the model is it, and how does it differ from previous versions? This is useful for all stakeholders to track whether the model is the latest version, associate known bugs to the correct model versions, and aid in model comparisons. |
 | **Model type**    | What type of model is it? This includes basic model architecture details, such as whether it is a Naive Bayes classifier, a Convolutional Neural Network, etc. This is likely to be particularly relevant for software and model developers, as well as individuals knowledgeable about machine learning, to highlight what kinds of assumptions are encoded in the system. |
-| **Paper or other resource for more information**     | Where can resources for more information be found? |
-| **Citation details**      | How should the model be cited? License: License information can be provided. Feedback on the model: E.g., what is an email address that people may write to for further information? |
+| **References**     | Where can resources for more information be found? Paper or other resource for more information |
+| **Citations**      | How should the model be cited? License: License information can be provided. Feedback on the model: E.g., what is an email address that people may write to for further information? |
 
 There are cases where some of this information may be sensitive. This section should not be seen as a requirement to compromise private information or reveal proprietary training techniques; rather, a place to disclose basic decisions and facts about the model that the organisation can share with the broader community in order to better inform on what the model represents.
 
