@@ -23,10 +23,10 @@
 - All metrics reported at the .5 decision threshold, where all error types (FPR, FNR, FDR, FOR) are within the same range (0.04 - 0.14).
 
 ## Training Data
-- CelebA [(Deep Learning Face Attributes in the Wild)](https://arxiv.org/abs/1411.7766), training data split.
+- [CelebA](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) and [Deep Learning Face Attributes in the Wild](https://arxiv.org/abs/1411.7766), training data split.
 
 ## Evaluation Data
-- CelebA [(Deep Learning Face Attributes in the Wild)](https://arxiv.org/abs/1411.7766), test data split.
+- [CelebA](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) and [Deep Learning Face Attributes in the Wild](https://arxiv.org/abs/1411.7766), test data split.
 - Chosen as a basic proof-of-concept.
 
 ## Ethical Considerations
