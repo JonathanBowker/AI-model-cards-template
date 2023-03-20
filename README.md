@@ -67,7 +67,7 @@ This section of the model card should answer basic questions regarding the model
 
 | **Subject**        | **Question**           |
 | :------------- |:--------------------------------------|
-| **Person or organisation developing model**      | What person or organisation developed the model? This can be used by all stakeholders to infer details pertaining to model development and potential conflicts of interest. |
+| **Developer**      | Which person or organisation developed the model? This can be used by all stakeholders to infer details pertaining to model development and potential conflicts of interest. |
 | **Model date**     | When was the model developed? This is useful for all stakeholders to become further informed on what techniques and data sources were likely to be available during model development. |
 | **Model version**      | Which version of the model is it, and how does it differ from previous versions? This is useful for all stakeholders to track whether the model is the latest version, associate known bugs to the correct model versions, and aid in model comparisons. |
 | **Model type**    | What type of model is it? This includes basic model architecture details, such as whether it is a Naive Bayes classifier, a Convolutional Neural Network, etc. This is likely to be particularly relevant for software and model developers, as well as individuals knowledgeable about machine learning, to highlight what kinds of assumptions are encoded in the system. |
