@@ -1,4 +1,4 @@
-# AI & ML Model Cards
+# ML Model Cards
 ## Model Cards for Model Reporting
 Model Cards serve to disclose information about a trained machine learning model. This includes how it was built, what assumptions were made during its development, what type of model behaviour different cultural, demographic, or phenotypic population groups may experience, and an evaluation of how well the model performs with respect to those groups. 
 
@@ -64,7 +64,8 @@ Quantitative analyses should be disaggregated, that is, broken down by the chose
  - **Intersectional results** -	How did the model perform with respect to the intersection of evaluated factors?
 	
 ### 8. Ethical Considerations
-###### Ethical analysis does not always lead to precise solutions, but documenting ethical analysis is worthwhile to demonstrate responsible practices and next steps in future work.
+This section is intended to demonstrate the ethical considerations that went into model development, surfacing ethical challenges and solutions to stakeholders. Ethical analysis does not always lead to precise solutions, but the process of ethical contemplation is worthwhile to inform on responsible practices and next steps in future work. 
+While there are many frameworks for ethical decision-making in technology that can be adapted here but the following are specific questions you may want to explore in this section: 
  - **Data** - Does the model use any sensitive data (e.g., protected classes)?
  - **Human life** - Is the model intended to inform decisions about matters central to human life or flourishing – e.g., health or safety? Or could it be used in such a way?
  - **Mitigations** - What risk mitigation strategies were used during model development?
@@ -72,9 +73,7 @@ Quantitative analyses should be disaggregated, that is, broken down by the chose
  - **Use cases** - Are there any known model use cases that are especially fraught? This may connect directly to the intended use section of the model card
 	
 ### 9. Caveats and Recommendations
-###### This section should list additional concerns that were not covered in the previous sections.
- – **Caveats** - Are there any caveats that need to listed?	
- – **Recommendations** - Are there any recommendations that shoudld to listed?	
+This section should list additional concerns that were not covered in the previous sections. For example, did the results suggest any further testing? Were there any relevant groups that were not represented in the evaluation dataset? Are there additional recommendations for model use? What are the ideal characteristics of an evaluation dataset for this model?
 	
 # Model Card Sections
 ## 1. Model Details
