@@ -19,7 +19,7 @@ This enables model reporting with different meanings to those involved (see belo
 - Impacted individuals who may experience effects from a model can better understand how it works or use information in the card to pursue remedies.
 
 # Model Card Sections
-Model cards serve to disclose information about the 
+Model cards serve to disclose information about a trained machine learning model. This includes how it was built, what assumptions were made during its development, what type of model behaviour different cultural, demographic, or phenotypic population groups may experience, and an evaluation of how well the model performs with respect to those groups.
 
 # ML Model Card
 ### Model Details. Basic information about the model.
