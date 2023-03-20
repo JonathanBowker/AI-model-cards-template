@@ -1,5 +1,3 @@
-In addition to conducting a DPIA, you may also be required to undertake other kinds of impact assessments or do so voluntarily. For example, public sector organisations are required to undertake equality impact assessments, while other organisations voluntarily undertake ‘algorithm impact assessments’. Similarly, the machine learning community has proposed ‘**model cards**’ and ‘**datasheets**’ which describe how ML models may perform under different conditions, and the context behind the datasets they are trained on, which may help inform an impact assessment. There is no reason why you cannot combine these exercises, so long as the assessment encompasses all the requirements of a DPIA.
-
 # AI & ML Model Cards
 ## AI Passports for Model Reporting
 AI Passports serve to disclose information about a trained machine learning model. This includes how it was built, what assumptions were made during its development, what type of model behaviour different cultural, demographic, or phenotypic population groups may experience, and an evaluation of how well the model performs with respect to those groups. 
