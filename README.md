@@ -31,21 +31,25 @@ Model Cards serve to disclose information about a trained machine learning model
 	– References or other resource for more information
 	– Citations e.g. how the model shoud be citedor referenced
 	– License
-	– Where to send questions or comments about the model
+	– Where to send questions or comments regarding the model
+	
 ### 2. Intended Use
 ###### Use cases that were envisioned during development.
 	– Primary intended uses
 	– Primary intended users
 	– Out-of-scope use cases
+	
 ### 3. Factors
 ###### Factors could include demographic or phenotypic groups, environmental conditions, technical attributes, or others.
 	– Relevant factors
 	– Evaluation factors
+	
 ### 4. Metrics
 ###### Metrics should be chosen to reflect potential realworld impacts of the model.
 	– Model performance measures
 	– Decision thresholds
 	– Variation approaches
+	
 ### 5. Evaluation Data
 ###### Details on the dataset(s) used for the quantitative analyses in the card.
 	– Datasets
