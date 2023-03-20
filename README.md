@@ -1,4 +1,5 @@
 # AI and ML Model Cards
+## Model Cards for Model Reporting
 AI and ML Model Cards serve to disclose information about a trained machine learning model. This includes how it was built, what assumptions were made during its development, what type of model behaviour different cultural, demographic, or phenotypic population groups may experience, and an evaluation of how well the model performs with respect to those groups. 
 
 
