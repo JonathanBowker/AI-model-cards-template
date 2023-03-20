@@ -1,14 +1,14 @@
-# ML Model Cards
-## Model Cards for Model Reporting
-Model Cards serve to disclose information about a trained machine learning model. This includes how it was built, what assumptions were made during its development, what type of model behaviour different cultural, demographic, or phenotypic population groups may experience, and an evaluation of how well the model performs with respect to those groups. 
+# ML Model Catalogues
+## Model Catalogues for Model Reporting
+Model Catalogues serve to disclose information about a trained machine learning model. This includes how it was built, what assumptions were made during its development, what type of model behaviour different cultural, demographic, or phenotypic population groups may experience, and an evaluation of how well the model performs with respect to those groups. 
 
 
 ## Background
 As the use of machine learning technology and AI are rapidly increasing, so too have the volume of reports of errors and failures. Despite the potentially serious repercussions of these errors, those looking to use trained machine learning models in a particular context have no way of understanding the systematic impacts of these models before deploying them or engaging their services. 
 
-Model Cards aim to standardise ethical practice and reporting by allowing key people to compare candidate models for deployment across traditional evaluation metrics as well as the axes of ethical, inclusive, and fair considerations. This goes beyond the boundaries of current solutions that aid stakeholders in different contexts. For example, to aid policy makers and regulators on questions to ask about a model, and known benchmarks around the suitability of a model in a specific setting.
+Model Catalogues aim to standardise ethical practice and reporting by allowing key people to compare candidate models for deployment across traditional evaluation metrics as well as the axes of ethical, inclusive, and fair considerations. This goes beyond the boundaries of current solutions that aid stakeholders in different contexts. For example, to aid policy makers and regulators on questions to ask about a model, and known benchmarks around the suitability of a model in a specific setting.
 
-Model Cards enable model reporting with different context for those involved in different aspects of model development, deployment, and usage:
+Model Catalogues enable model reporting with different context for those involved in different aspects of model development, deployment, and usage:
 
 - **ML and AI practitioners** can better understand how well the model might work for its intended use cases and track its performance over time.
 - **Model developers** can compare the model’s results to other models in the same space, and make decisions about training their own AI system.
@@ -18,9 +18,9 @@ Model Cards enable model reporting with different context for those involved in 
 - **ML-knowledgeable** individuals can be informed on different options for fine-tuning, model combination, or additional rules and constraints to help curate models for intended use cases without requiring technical expertise.
 - **Impacted individuals** who may be affected by a model can better understand how it works or use information in the Model Passport to pursue remedies.
 
-Model Cards serve to disclose information about a trained machine learning model. This includes how it was built, what assumptions were made during its development, what type of model behaviour different cultural, demographic, or phenotypic population groups may experience, and an evaluation of how well the model cards with respect to those groups.
+Model Catalogues serve to disclose information about a trained machine learning model. This includes how it was built, what assumptions were made during its development, what type of model behaviour different cultural, demographic, or phenotypic population groups may experience, and an evaluation of how well the model cards with respect to those groups.
 
-# ML Model Card
+# ML Model Catalogue
 ## 1. Model Details
 This section of the model card should serve to answer basic questions regarding the model version, type and other details etc.
  - **Model Developer** - Which person or organisation developed the model? This can be used by all stakeholders to infer details pertaining to model development and potential conflicts of interest.
@@ -31,38 +31,38 @@ This section of the model card should serve to answer basic questions regarding 
  - **Model Citations** - How should the model be cited? 
  - **Model License** - License information can be provided. 
  - **Model Feedback** - E.g., what is an email address that people may write to for further information?
-	
+    
 ## 2. Intended Use
 This section should allow readers to quickly grasp what the model should and should not be used for, and why it was created. It can also help frame the statistical analysis presented in the rest of the card, including a short description of the user(s), use-case(s), and context(s) for which the model was originally developed. Possible information includes: 
  - **Primary intended uses** - This section details whether the model was developed with general or specific tasks in mind (e.g., plant recognition worldwide or in the Pacific Northwest). The use cases may be as broadly or narrowly defined as the developers intend. For example, if the model was built simply to label images, then this task should be indicated as the primary intended use case.
- - **Primary intended users** -	For example, was the model developed for entertainment purposes, for hobbyists, or enterprise solutions? This helps users gain insight into how robust the model may be to different kinds of inputs.
+ - **Primary intended users** - For example, was the model developed for entertainment purposes, for hobbyists, or enterprise solutions? This helps users gain insight into how robust the model may be to different kinds of inputs.
  - **Out-of-scope uses** - Here, the model card should highlight technology that the model might easily be confused with, or related contexts that users could try to apply the model to. This section may provide an opportunity to recommend a related or similar model that was designed to better meet that particular need, where possible. This section is inspired by warning labels on food and toys, and similar disclaimers presented in electronic datasheets. Examples include “not for use on text examples shorter than 100 tokens” or “for use on black-and-white images only; please consider our research group’s full-color-image classifier for color images.”
-	
+    
 ## 3. Factors
-Model cards ideally provide a summary of model performance across a variety of relevant factors including groups, instrumentation, and environments. We briefly describe each of these factors and their relevance followed by the corresponding prompts in the model card. Factors could include demographic or phenotypic groups, environmental conditions, technical attributes, or others.
+Model Catalogues ideally provide a summary of model performance across a variety of relevant factors including groups, instrumentation, and environments. We briefly describe each of these factors and their relevance followed by the corresponding prompts in the model card. Factors could include demographic or phenotypic groups, environmental conditions, technical attributes, or others.
  - **Relevant factors** - What are foreseeable salient factors for which model performance may vary, and how were these determined?
  - **Evaluation factors** - Which factors are being reported, and why were these chosen? If the relevant factors and evaluation factors are different, why? For example, while Fitzpatrick skin type is a relevant factor for face detection, an evaluation dataset annotated by skin type might not be available until reporting model performance across groups becomes standard practice.
-	
+    
 ## 4. Metrics
 The appropriate metrics to feature in a model card depend on the type of model that is being tested. For example, classification systems in which the primary output is a class label differ significantly from systems whose primary output is a score. In all cases, the reported metrics should be determined based on the model’s structure and intended use. Details for this section include:
  - **Model performance measures** - What measures of model performance are being reported, and why were they selected over other measures of model performance?
  - **Decision thresholds** - If decision thresholds are used, what are they, and why were those decision thresholds chosen? When the model card is presented in a digital format, a threshold slider should ideally be available to view performance parameters across various decision thresholds.
  - **Approaches to uncertainty and variability** - How are the measurements and estimations of these metrics calculated? For example, this may include standard deviation, variance, confidence intervals, or KL divergence. Details of how these values are approximated should also be included (e.g., average of 5 runs, 10-fold cross-validation).
-	
+    
 ## 5. Evaluation Data
 All referenced datasets would ideally point to any set of documents that provide visibility into the source and composition of the dataset. Evaluation datasets should include datasets that are publicly available for third-party use. These could be existing datasets or new ones provided alongside the model card analyses to enable further benchmarking. Potential details include:
  - **Datasets**  - What datasets were used to evaluate the model?
  - **Motivation** - Why were these datasets chosen? 
  - **Preprocessing** - How was the data preprocessed for evaluation (e.g., tokenization of sentences, cropping of images, any filtering such as dropping images without faces)? 
-	
+    
 ## 6. Training Data
 Ideally, the model card would contain as much information about the training data as the evaluation data. However, there might be cases where it is not feasible to provide this level of detailed information about the training data. For example, the data may be proprietary, or require a non-disclosure agreement. In these cases, we recommend basic details about the distributions over groups in the data, as well as any other details that could inform stakeholders on the kinds of biases the model may have encoded. This may not be possible to provide in practice. 
 
 ## 7. Quantitative Analyses
 Quantitative analyses should be disaggregated, that is, broken down by the chosen factors. Quantitative analyses should provide the results of evaluating the model according to the chosen metrics, providing confidence interval values when possible. Parity on the different metrics across disaggregated population subgroups corresponds to how fairness is often defined. Quantitative analyses should demonstrate the metric variation (e.g., with error bars). Details of quantitative analyses should provide the results of evaluating the model according to the chosen metrics, providing confidence interval values when possible.The disaggregated evaluation includes:
  - **Unitary results** - How did the model perform with respect to each factor?
- - **Intersectional results** -	How did the model perform with respect to the intersection of evaluated factors?
-	
+ - **Intersectional results** - How did the model perform with respect to the intersection of evaluated factors?
+    
 ### 8. Ethical Considerations
 This section is intended to demonstrate the ethical considerations that went into model development, surfacing ethical challenges and solutions to stakeholders. Ethical analysis does not always lead to precise solutions, but the process of ethical contemplation is worthwhile to inform on responsible practices and next steps in future work. 
 While there are many frameworks for ethical decision-making in technology that can be adapted here but the following are specific questions you may want to explore in this section: 
@@ -71,11 +71,11 @@ While there are many frameworks for ethical decision-making in technology that c
  - **Mitigations** - What risk mitigation strategies were used during model development?
  - **Risks and harms** - What risks may be present in model usage? Try to identify the potential recipients, likelihood, and magnitude of harms. If these cannot be determined, note that they were considered but remain unknown.
  - **Use cases** - Are there any known model use cases that are especially fraught? This may connect directly to the intended use section of the model card
-	
+    
 ### 9. Caveats and Recommendations
 This section should list additional concerns that were not covered in the previous sections. For example, did the results suggest any further testing? Were there any relevant groups that were not represented in the evaluation dataset? Are there additional recommendations for model use? What are the ideal characteristics of an evaluation dataset for this model?
-	
-# Model Card Sections
+    
+# Model Catalogue Sections
 ## 1. Model Details
 This section of the model card should answer basic questions regarding the model version, type and other details.
 
@@ -86,7 +86,7 @@ There are cases where some of this information may be sensitive. This section sh
 This section of the model card should answer what the model should and should not be used for, and why it was created. It can also help frame the statistical analysis presented in the rest of the card, including a short description of the user(s), use-case(s), and context(s) for which the model was originally developed. 
 
 ## 3. Factors
-Model cards ideally provide a summary of model performance across a variety of relevant factors including groups, instrumentation, and environments. We briefly describe each of these factors and their relevance followed by the corresponding prompts in the model card.
+Model Catalogues ideally provide a summary of model performance across a variety of relevant factors including groups, instrumentation, and environments. We briefly describe each of these factors and their relevance followed by the corresponding prompts in the model card.
 
 ### 3.1 Groups
 “Groups” refers to distinct categories with similar characteristics that are present in the evaluation data instances. For human-centric machine learning models, “groups” are people who share one or multiple characteristics. Intersectional model analysis for human-centric models is inspired by the sociological concept of intersectionality, which explores how an individual’s identity and experiences are shaped not just by unitary personal characteristics – such as race, gender, sexual orientation or health – but instead by a complex combination of many factors. These characteristics, which include but are not limited to cultural, demographic and phenotypic (observable characteristics in an individual resulting from the expression of genes) categories, are important to consider when evaluating machine learning models. Determining which groups to include in an intersectional analysis requires examining the intended use of the model and the context under which it may be deployed. Depending on the situation, certain groups may be more vulnerable than others to unjust or prejudicial treatment.
@@ -139,9 +139,9 @@ This section is intended to demonstrate the ethical considerations that went int
 ## 9. Caveats and Recommendations
 This section should list additional concerns that were not covered in the previous sections. For example, did the results suggest any requiremnt for further testing? Were there any relevant groups that were not represented in the evaluation dataset? Are there additional recommendations for model use? What are the ideal characteristics of an evaluation dataset for this model?
 
-# Model Card Usage
-Model Cards provide information about the context of a machine learning model, as well as model performance results disaggregated by different unitary and intersectional population groups. Model Cards are designed to accompany a specific model after careful review has determined that the foreseeable benefits outweigh the foreseeable risks in the model’s use or release.
+# Model Catalogue Usage
+Model Catalogues provide information about the context of a machine learning model, as well as model performance results disaggregated by different unitary and intersectional population groups. Model Catalogues are designed to accompany a specific model after careful review has determined that the foreseeable benefits outweigh the foreseeable risks in the model’s use or release.
 
 The framework is intended to be general enough to be applicable across different institutions, contexts, and stakeholders. It also is suitable for recently proposed requirements for analysis of algorithmic decision systems in critical social institutions, for example, for models used in determining government benefits, employment evaluations, criminal risk assessment, and criminal DNA analysis. 
 
-Model cards are just one approach to increasing transparency between developers, users, and stakeholders of machine learning models and systems. They are designed to be flexible in both scope and specificity in order to accommodate the wide variety of machine learning model types and potential use cases. Therefore the usefulness and accuracy of a model card relies on the integrity of the creator(s) of the card itself. It seems unlikely, at least in the near term, that model cards could be standardised or formalised to a degree needed to prevent misleading representations of model results (whether intended or unintended). It is therefore important to consider model cards as a transparency tool among many, which could include, for example, algorithmic auditing by third-parties (both quantitative and qualitative), “adversarial testing” by technical and non-technical analysts, and more inclusive user feedback mechanisms. 
+Model Catalogues are just one approach to increasing transparency between developers, users, and stakeholders of machine learning models and systems. They are designed to be flexible in both scope and specificity in order to accommodate the wide variety of machine learning model types and potential use cases. Therefore the usefulness and accuracy of a model card relies on the integrity of the creator(s) of the card itself. It seems unlikely, at least in the near term, that model cards could be standardised or formalised to a degree needed to prevent misleading representations of model results (whether intended or unintended). It is therefore important to consider model cards as a transparency tool among many, which could include, for example, algorithmic auditing by third-parties (both quantitative and qualitative), “adversarial testing” by technical and non-technical analysts, and more inclusive user feedback mechanisms. 
