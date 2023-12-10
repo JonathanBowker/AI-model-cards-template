@@ -6,17 +6,16 @@ Integrating the ICO AI Audit Framework, ICO Accountability Tracker, and ICO AI D
 - **Objective**: Understand model functionality, data handling, and existing privacy practices.
 - **Activities**:
   - Review model design, data inputs, outputs, and current privacy policies.
-  - Initiate Data and Model Cards in Markdown Language.
-  - Start baseline Data Protection Impact Assessment (DPIA) in Markdown Language.
+  - Initiate Data and Model Cards and Data Protection Impact Assessment (DPIA) in Markdown Language to estblaish a baseline.
 - **ICO Integration**:
-  - Use the ICO AI Audit Framework to guide the initial analysis, focusing on transparency and data protection principles.
+  - Use the ICO AI Audit Framework to provide guardrails for analysis, focus on transparency and data protection and ethics principles.
 
 #### Step 2: Data Quality and Representativeness Assessment
 - **Objective**: Assess data quality, representation, and biases.
 - **Activities**:
-  - Analyze EHRs for quality, representativeness, and biases.
+  - Analyse Electronic Health Records (EHRs) for quality, representativeness, and biases.
   - Update Data Card and DPIA with findings.
-  - Utilize Fides Lang for privacy implications assessment.
+  - Utilise DPV Lang for privacy implications assessment.
 - **ICO Integration**:
   - Apply ICO AI Data Protection Risk Toolkit to identify potential risks in data processing.
 
@@ -70,7 +69,7 @@ Integrating the ICO AI Audit Framework, ICO Accountability Tracker, and ICO AI D
 - **Activities**:
   - Finalize Data and Model Cards.
   - Document development of Sticky Policies and DPIA outcomes.
-  - Complete Privacy Audit using Fides Lang.
+  - Complete Privacy Audit using DPV Lang.
 - **ICO Integration**:
   - Ensure documentation meets ICO’s transparency and accountability standards.
 
@@ -85,8 +84,8 @@ Integrating the ICO AI Audit Framework, ICO Accountability Tracker, and ICO AI D
 ### Key Components
 
 - **Data and Model Cards**: Detailed documentation for transparency.
-- **Privacy Audit Using Fides Lang**: Systematic evaluation of privacy practices.
-- **Sticky Policies**: Privacy policies developed using Fides Lang.
+- **Privacy Audit Using DPV Lang**: Systematic evaluation of privacy practices.
+- **Sticky Policies**: Privacy policies developed using DPV Lang.
 - **DPIA**: Comprehensive privacy risk assessment.
 - **ICO AI Audit Framework**: Provides a structured approach to AI auditing.
 - **ICO Accountability Tracker**: Ensures adherence to accountability principles.
