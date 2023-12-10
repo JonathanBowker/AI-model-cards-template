@@ -6,8 +6,8 @@ Integrating the ICO AI Audit Framework, ICO Accountability Tracker, and ICO AI D
 - **Objective**: Understand model functionality, data handling, and existing privacy practices.
 - **Activities**:
   - Review model design, data inputs, outputs, and current privacy policies.
-  - Initiate Data and Model Cards.
-  - Start preliminary Privacy Audit using Fides Lang and a DPIA.
+  - Initiate Data and Model Cards in Markdown Language.
+  - Start baseline Data Protection Impact Assessment (DPIA) in Markdown Language.
 - **ICO Integration**:
   - Use the ICO AI Audit Framework to guide the initial analysis, focusing on transparency and data protection principles.
 
